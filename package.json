@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "prettier": "2.6.0"
+  },
+  "name": "node-ping-client-server",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "node ./server/server.js",
+    "client": "node ./client/client.js"
+  },
+  "author": "Pavel Tarkhov",
+  "license": "ISC",
+  "description": "Client getting ping from https://fundraiseup.com/ and send it to server. Server simulating OK response, 500 error, hang up."
+}
