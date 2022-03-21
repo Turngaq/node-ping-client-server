@@ -61,9 +61,9 @@ function sendPingDataToServer(pingData) {
   // New DeliveAttempt
   pingData.addDeliveryAttemp();
 
-  // Logging sending pingData
-  console.log("Sending... :" + JSON.stringify(pingData));
   const post_data = JSON.stringify(pingData);
+  // Logging sending pingData
+  console.log("Sending... :" + post_data);
 
   const options = {
     hostname: HOST_NAME,
